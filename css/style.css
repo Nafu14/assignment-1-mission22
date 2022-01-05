@@ -1,0 +1,140 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700&family=Yeseva+One&display=swap');
+
+/* common codes */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style-type: none;
+}
+h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    color: #333333;
+}
+h2{
+    font-size: 48px;
+    color: #13103A;
+}
+h3{
+    font-size: 36px;
+    color: #333333;
+}
+h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+p{
+    font-size: 18px;
+    color: #3E3E3E;
+}
+span{
+    color: #FFAD5A;
+}
+a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+h2,h3{
+    font-weight: 700;
+}
+a,p,h2,h3,h4{
+    font-family: 'Poppins', sans-serif;
+}
+/* common codes */
+
+/* common classes */
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.commonBtn{
+    padding: 10px 20px;
+    background: #FF5959;
+    transition: .5s all linear;
+}
+.commonBtn:hover{
+    background: rgb(253, 242, 242);
+    color: #FF5959;
+}
+.specialPara{
+    font-size: 16px;
+    color: #434343;
+}
+.commonHeading{        
+    text-align: center;
+}
+/* common classes */
+
+/* main section */
+#mainSection{
+    margin: 40px 0;
+}
+    /* banner */
+    .banner{
+        padding: 40px 0;
+    }
+    .bannerContent{
+        padding-top: 50px;
+        margin-right: 100px;
+    }
+    .bannerContent  h1{
+        border-left: 2px solid red;
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+    .bannerContent p{
+        margin: 30px 0;
+    }
+    .bannerContent a{
+        margin-bottom: 50px;
+    }
+    .bannerImg img{
+        width: 450px;
+    }
+    /* banner */
+
+    /* mission */
+    .mission{
+        padding: 40px 0;
+    }
+    .justifyCard{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .missionCard{
+        width: 33%;
+        margin: 0 25px;        
+        text-align: start;
+        border-radius: 30px;
+        padding: 30px;
+    }
+    #lightBlue{
+        background: #e1f9fc;
+    }
+    #lightPurple{
+        background: #ffecec;
+    }
+    #lightYellow{
+        background: #fffaec;
+    }
+    .missionCard img{
+        width: 150px;
+        margin-bottom: 15px;
+    }
+    /* mission */
+/* main section */
