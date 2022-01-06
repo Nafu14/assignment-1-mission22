@@ -65,6 +65,7 @@ a,p,h2,h3,h4{
 .commonBtn{
     padding: 10px 20px;
     background: #FF5959;
+    border-radius: 10px;
     transition: .5s all linear;
 }
 .commonBtn:hover{
@@ -78,6 +79,9 @@ a,p,h2,h3,h4{
 .commonHeading{        
     text-align: center;
 }
+.commonPadding{
+    padding: 50px 0;
+}
 /* common classes */
 
 /* main section */
@@ -85,15 +89,22 @@ a,p,h2,h3,h4{
     margin: 40px 0;
 }
     /* banner */
-    .banner{
-        padding: 40px 0;
-    }
     .bannerContent{
         padding-top: 50px;
         margin-right: 100px;
     }
+    .bannerContent::after{
+        content: "";
+        position: absolute;
+        height: 110px;
+        width: 5px;
+        background: #FF5959;
+        top: 145px;
+        left: 180px;
+        border-radius: 20px;
+    }
     .bannerContent  h1{
-        border-left: 2px solid red;
+        border-radius: 2px;
         padding-left: 20px;
         margin-bottom: 30px;
     }
@@ -109,9 +120,6 @@ a,p,h2,h3,h4{
     /* banner */
 
     /* mission */
-    .mission{
-        padding: 40px 0;
-    }
     .justifyCard{
         text-align: center;
         margin-top: 50px;
@@ -122,6 +130,11 @@ a,p,h2,h3,h4{
         text-align: start;
         border-radius: 30px;
         padding: 30px;
+        transform: skew(0);
+        transition: .3s all linear;
+    }
+    .missionCard:hover{
+        transform: skew(-5deg, -2deg);
     }
     #lightBlue{
         background: #e1f9fc;
@@ -137,4 +150,49 @@ a,p,h2,h3,h4{
         margin-bottom: 15px;
     }
     /* mission */
+
+    /* develop part start */
+    
+    .develop{
+        background: url(/images/shape-1.png);
+        background-size: 150px  150px;
+        background-repeat: no-repeat;
+        background-position: 8% 40%;
+    }
+    .developImg{
+        margin-right: 100px;
+    }
+    .developImg img{
+        width: 400px;
+    }
+    .developContent{
+        padding-right: 150px;
+    }
+    .developContent  h3, .developContent p{
+        margin: 30px 0;
+    }   
+    /* develop part end */
+
+    /* customer part start */
+    .customer{
+        background: url(/images/shape-1.png);
+        background-size: 150px  150px;
+        background-repeat: no-repeat;
+        background-position: 92% 100%;
+    }
+    .customerImg{
+        margin-left: 100px;
+    }
+    .customerImg img{
+        width: 500px;
+    }
+    .customerContent{
+        padding-right: 50px;
+    }
+    .customerContent  h3, .customerContent p{
+        margin: 30px 0;
+    }  
+    /* customer part end */
+
+
 /* main section */
