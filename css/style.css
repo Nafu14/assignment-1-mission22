@@ -48,7 +48,7 @@ a{
 h2,h3{
     font-weight: 700;
 }
-a,p,h2,h3,h4{
+button,a,p,h2,h3,h4{
     font-family: 'Poppins', sans-serif;
 }
 /* common codes */
@@ -66,6 +66,7 @@ a,p,h2,h3,h4{
     padding: 10px 20px;
     background: #FF5959;
     border-radius: 10px;
+    color: #fff;
     transition: .5s all linear;
 }
 .commonBtn:hover{
@@ -82,11 +83,21 @@ a,p,h2,h3,h4{
 .commonPadding{
     padding: 50px 0;
 }
+.textCenter{
+    text-align: center;
+}
+.commonInput{
+    padding: 10px 20px;
+    background: rgb(199, 199, 199);
+    border-radius: 20px;
+    width: 250px;
+    margin: 10px 20px;
+}
 /* common classes */
 
 /* main section */
 #mainSection{
-    margin: 40px 0;
+    margin: 40px 0 0 0;
 }
     /* banner */
     .bannerContent{
@@ -154,16 +165,16 @@ a,p,h2,h3,h4{
     /* develop part start */
     
     .develop{
-        background: url(/images/shape-1.png);
-        background-size: 150px  150px;
+        background: url(/images/shape-2.png);
+        background-size: 250px  250px;
         background-repeat: no-repeat;
-        background-position: 8% 40%;
+        background-position: 08% 10%;
     }
     .developImg{
         margin-right: 100px;
     }
     .developImg img{
-        width: 400px;
+        width: 400px
     }
     .developContent{
         padding-right: 150px;
@@ -184,7 +195,7 @@ a,p,h2,h3,h4{
         margin-left: 100px;
     }
     .customerImg img{
-        width: 500px;
+        width: 450px;
     }
     .customerContent{
         padding-right: 50px;
@@ -194,5 +205,61 @@ a,p,h2,h3,h4{
     }  
     /* customer part end */
 
+    /* application part start */
+    .appImg{
+        padding: 0 100px;
+        background: url(/images/shape-3.png);
+        background-repeat: no-repeat;
+        background-position: 15% 0%;
+    }
+    .appImg img{
+        width: 300px;
+        opacity: 10;
+    }
+    .appContent{
+        background: url(/images/shape-6.png);
+        background-repeat: no-repeat;
+        background-position: 110% 150%;
+        background-size: 300px 300px;
+        padding: 0 100px;
+    }
+    .appContent  h3, .appContent p{
+        margin: 30px 0;
+    }  
+    /* application part end */
 
+    /* form part start */
+    .bloodForm{
+        background: #13103A;
+    }
+    .bloodForm>.container{
+        background: #fff;
+        border-radius: 40px;
+    }
+    .iBlood,.iEmail,.iPass{
+        width: 550px;
+    }
+    /* form part end */
+    
 /* main section */
+
+/* footer part start */
+.missionFooter{
+    background: #000;
+}
+.missionFooter h3{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+}
+.missionFooter span{
+    color: #FF5959;
+}
+.missionFooter p{
+    color: rgb(230, 227, 227);
+    font-size: 14px;
+}
+/* footer part end */
+
+
+
+/* completed */
