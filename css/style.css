@@ -206,6 +206,9 @@ button,a,p,h2,h3,h4{
     /* customer part end */
 
     /* application part start */
+    .application{
+        padding-bottom: 0;
+    }
     .appImg{
         padding: 0 100px;
         background: url(/images/shape-3.png);
